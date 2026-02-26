@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic</title>
+    <link rel="stylesheet" href="Topic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Navbar -->                
+ <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top container-fluid d-flex align-items-center">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Duplicate--Streamline-Ultimate" height="30" width="30">
+  <desc>
+    Duplicate Streamline Icon: https://streamlinehq.com
+  </desc>
+  <path fill="#000000" fill-rule="evenodd" d="M0 2C0 0.895429 0.895431 0 2 0h14c1.1046 0 2 0.895432 2 2v1.5c0 0.55228 -0.4477 1 -1 1s-1 -0.44772 -1 -1V2L2 2v14h1.5c0.55228 0 1 0.4477 1 1s-0.44772 1 -1 1H2c-1.10457 0 -2 -0.8954 -2 -2V2Z" clip-rule="evenodd" stroke-width="1"></path>
+  <path fill="#000000" fill-rule="evenodd" d="M8 6c-1.10457 0 -2 0.89543 -2 2v14c0 1.1046 0.89543 2 2 2h14c1.1046 0 2 -0.8954 2 -2V8c0 -1.10457 -0.8954 -2 -2 -2H8Z" clip-rule="evenodd" stroke-width="1" ></path>
+</svg>
+            </a>
+            <span class="h2 fw-bold ps-0 text-dark">Topic</span>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navcollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navcollapse">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item"><a class="nav-link active" href="#hero-section">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#topics">BROWES TOPIC</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#howitswork">HOW IT WORKS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faqs">FAQS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PAGES</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" style="color:black;" href="#">TOPICS LISTING</a></li>
+                            <li><a class="dropdown-item" style="color:black;" href="#">CONTACT FORM</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+
+    </nav>
+                    
+    <!-- hero-section -->
+<!-- hero-section -->
+<div class="container-fluid hero-section">
+  <h1 class="text-light text-center">Discover. Learn. Enjoy</h1>
+  <p>platform for creatives around the world</p>
+
+  <!-- Search Box -->
+  <div class="search-box">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Design, Code, Marketing, Finance ...">
+    <button>Search</button>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="container mt-5">
+    <div class="row justify-content-center g-3">
+
+      <!-- Card 1 -->
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+        <div class="card white">
+          <h3 class="ms-2">Web Design</h3>
+          <p>
+            When you search for free CSS templates, you will notice that TemplateMo is one of the best websites.
+          </p>
+          <span class="badge">14</span>
+          <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Web Design" width="195px" class="mx-auto">
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center">
+        <div class="card gradient">
+          <h3 class="ms-2">Finance</h3>
+          <p>
+            Topic Listing Template includes homepage, listing page, detail page, and contact page. You can feel free to edit and adapt for your CMS requirements.
+          </p>
+          <div class="btn learn-btn">Learn More</div>
+          <span class="badge">25</span>
+          <div class="share">
+            <span>Share :</span>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+    <!-- section-2 -->
+<section class="topics py-5" id="topics">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Browse Topics</h2>
+    <ul class="nav justify-content-center mb-4 border-bottom pb-2" id="topicTabs">
+      <li class="nav-item"><a class="nav-link active" data-topic="marketing" href="#">Marketing</a></li>
+      <li class="nav-item"><a class="nav-link" data-topic="design" href="#">Design</a></li>
+      <li class="nav-item"><a class="nav-link" data-topic="finance" href="#">Finance</a></li>
+      <li class="nav-item"><a class="nav-link" data-topic="music" href="#">Music</a></li>
+      <li class="nav-item"><a class="nav-link" data-topic="education" href="#">Education</a></li>
+    </ul>
+    <div id="cardsContainer" class="position-relative"></div>
+  </div>
+</section>
+    
+
+<!-- sectioin-3  -->
+<section class="how-it-works" id="howitswork">
+  <div class="container">
+    <h2>How Does It Work?</h2>
+    <!-- Step 1 -->
+    <div class="row timeline-item align-items-center">
+      <div class="col-2">
+        <div class="icon-circle">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="col-10">
+        <h4>Search Your Favourite Topic</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore.</p>
+      </div>
+    </div>
+        
+    <!-- Step 2 -->
+    <div class="row timeline-item align-items-center">
+      <div class="col-2">
+        <div class="icon-circle d-flex align-items-center mx-auto">
+          <i class="fa-solid fa-bookmark"></i>
+        </div>
+      </div>
+      <div class="col-10">
+        <h4>Bookmark & Keep It For Yourself</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam?</p>
+      </div>
+    </div>
+    
+    <!-- Step 3 -->
+    <div class="row timeline-item align-items-center">
+      <div class="col-2">
+        <div class="icon-circle">
+          <i class="fa-solid fa-book-open"></i>
+        </div>
+      </div>
+      <div class="col-10">
+        <h4>Read & Enjoy</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore.</p>
+      </div>
+    </div>
+  </div>
+</section>
+        
+
+
+    <!-- section-4  -->
+  <section class="faq-section" id="faqs">
+    <div class="container">
+      <h2 class="faq-title">Frequently Asked<br>Questions</h2>
+      <div class="row align-items-center faq-content d-flex">
+        <!-- Left image -->
+        <div class="col-md-6 text-center">
+          <img src="https://quikcv.in/interview-guide/img-7.png" alt="FAQ Illustration" class="faq-image" height="auto">
+        </div>
+        <!-- Right FAQ accordion -->
+        <div class="col-md-6 border-none">
+          <div class="accordion" id="faqAccordion">
+            <!-- Q1 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">What is Topic Listing?</button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-start">
+                Topic Listing is free Bootstrap 5 CSS template. You are not allowed to redistribute this template on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+              </div>
+            </div>
+          </div>
+            <!-- Q2 -->
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">How to find a topic?</button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-start">
+                You can search on Google with keywords such as templatemo portfolio, templatemo one-page layouts, photography, digital marketing, etc.
+              </div>
+            </div>
+          </div>
+          <!-- Q3 (open by default) -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              Does it need to be paid?
+            </button>
+          </h2>              
+          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+          data-bs-parent="#faqAccordion">
+          <div class="accordion-body text-start">
+            You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+        <!-- sectiom-5  -->
+<div class="container-fluid section-5 p-5" id="contact">
+  <h3 class="text-center mt-3 mb-4">Get in touch</h3>
+  <div class="row  mx-auto g-5 d-flex justify-content-center">
+    <!-- first col  -->
+    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 ">
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.072532525381!2d72.82125171437632!3d19.06071098708939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93b1a8a5b61%3A0xd44e7ddbf5e4b6db!2sBandra%20Fort!5e0!3m2!1sen!2s!4v1677486243900!5m2!1sen!2s"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+    </div>
+    <!-- second col  -->
+     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+      <h5>Head office</h5>
+      <p>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
+      Phone: <a href="#">305-234-9865</a><br>
+      Email: <a href="#">info@company.com</a>
+     </div>
+     <!-- third col  -->
+     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+       <h5>Dubai office</h5>
+       <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+         Phone: <a href="#">110-200-9865</a><br>
+         Email: <a href="#">info@company.com</a>
+        </div>
+      </div>
+    </div>
+      
+
+        <!-- foother  -->
+  <footer class="footer">
+    <div class="footer-container ">
+      <div class="footer-logo d-flex algin-items-center justify-content-center g-2">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" id="Duplicate--Streamline-Ultimate" height="30" width="30">
+          <desc>Duplicate Streamline Icon: https://streamlinehq.com</desc>
+          <path fill="#000000" fill-rule="evenodd" d="M0 2C0 0.895429 0.895431 0 2 0h14c1.1046 0 2 0.895432 2 2v1.5c0 0.55228 -0.4477 1 -1 1s-1 -0.44772 -1 -1V2L2 2v14h1.5c0.55228 0 1 0.4477 1 1s-0.44772 1 -1 1H2c-1.10457 0 -2 -0.8954 -2 -2V2Z" clip-rule="evenodd" stroke-width="1"></path>
+          <path fill="#000000" fill-rule="evenodd" d="M8 6c-1.10457 0 -2 0.89543 -2 2v14c0 1.1046 0.89543 2 2 2h14c1.1046 0 2 -0.8954 2 -2V8c0 -1.10457 -0.8954 -2 -2 -2H8Z" clip-rule="evenodd" stroke-width="1" ></path>
+        </svg>
+        <span>Topic</span> 
+      </div>
+
+      <div class="footer-column text-start">
+        <h4>Resources</h4>
+        <ul class="text-start">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Information</h4>
+        <p>305-240-9671</p>
+        <p><a href="mailto:info@company.com">info@company.com</a></p>
+      </div>
+      <div class="footer-column">
+        <select class="language-select">
+          <option>English</option>
+          <option>Urdu</option>
+          <option>Spanish</option>
+        </select>
+        <p class="copyright">Copyright © 2048 Topic Listing Center.<br>All rights reserved.</p>
+        <p class="design">Design: <a href="#">TemplateMo</a></p>
+      </div>
+    </div>
+    <div class="footer-angle"></div>
+  </footer>
+   
+
+
+
+                  <!-- Javascript  -->
+
+<!-- navbar -->
+ <script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
+</script>
+<!-- dropdown -->
+ <script>
+  document.querySelectorAll('.dropdown-toggle').forEach((toggle) => {
+    toggle.removeAttribute('data-bs-toggle'); // disables click toggle
+  });
+</script>
+
+
+<!-- section-2 js  -->
+ <script>
+
+const topics = {
+
+  marketing: [
+
+    { title: "Advertising", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://public-files.gumroad.com/2keqtcrk7hylruzes32eofa8fpii", count: 30 },
+
+    { title: "Video Content", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://koolpaidnpv.com/sites/v11_paid/files/2024-07/img16.svg", count: 65 },
+
+    { title: "Viral Tweet", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://media.websiterating.com/twitter-stats-2.png", count: 50 },
+
+  ],
+
+  design: [
+
+    { title: "Web Design", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://asargeo.com/wp-content/uploads/2024/09/1.png", count: 25 },
+
+    { title: "Graphic", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://portmacquarieonlinemarketing.com/wp-content/uploads/2021/02/undraw_Redesign_feedback_re_jvm0.svg", count: 40 },
+
+    { title: "Prototyping", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://akalptechnomediasolutions.com/wp-content/uploads/2025/04/colleagues-working-cozy-office-medium-shot-1-360x240.webp", count: 18 },
+
+  ],
+
+  finance: [
+
+    { title: "Investment", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://d3a93fg1wt2nf3.cloudfront.net/static/website/images/is_images/finance-reporting.svg", count: 30 },
+
+    { title: "Finance", desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis", img: "", count: 25 },
+
+  ],
+
+  music: [
+
+    { title: "Composing Songs", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://assets-v2.lottiefiles.com/a/cbd548c6-1185-11ee-bb9c-ff92ce422e32/0Ripupy0np.png", count: 33 },
+
+    { title: "Online music", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://charlieblog3.com/wp-content/uploads/2023/03/enjoy_lisitening.png", count: 22 },
+
+    { title: "Podcast", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://miro.medium.com/v2/resize:fit:1400/1*V5rdwwHkDXZQovATVii2oA.png", count: 15 },
+
+  ],
+
+  education: [
+
+    { title: "Graduation", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://teamshufflr.com/wp-content/uploads/2021/10/undraw_Graduation_re_gthn.svg", count: 55 },
+
+    { title: "Aducator", desc: "Lorem Ipsum dolor sit amet consectetur", img: "https://www.ucdenver.edu/images/librariesprovider132/icons/undraw_educator_re_ju47-(1).svg?sfvrsn=fd826fbb_2", count: 35 },
+
+  ]
+
+};
+
+
+
+const container = document.getElementById("cardsContainer");
+
+const tabs = document.querySelectorAll("#topicTabs .nav-link");
+
+let currentIndex = 0;
+
+
+
+function renderCards(topicName, direction = "right") {
+
+  const row = document.createElement("div");
+
+  row.className = "row cards-row justify-content-center";
+
+  if (direction === "right") row.classList.add("slide-in-right");
+
+  else row.classList.add("slide-in-left");
+
+
+
+  topics[topicName].forEach(card => {
+
+    const colDiv = document.createElement("div");
+
+    colDiv.className = "col-12 col-md-6 col-lg-4 mb-3";
+
+
+
+    // Finance card has special style
+
+    if (topicName === "finance" && card.title === "Finance") {
+
+      const cardDiv = document.createElement("div");
+
+      cardDiv.className = "finance-card p-4 position-relative h-100";
+
+      cardDiv.innerHTML = `
+
+        <div class="badge-count">${card.count}</div>
+
+        <h5 class="fw-bold mt-2">${card.title}</h5>
+
+        <p>${card.desc}</p>
+
+        <button class="learn-btn mt-2">Learn More</button>
+
+        <div class="d-flex align-items-center mt-4 justify-content-center">
+
+          <span class="me-2">Share:</span>
+
+          <div class="share-icons">
+
+            <i class="fab fa-twitter"></i>
+
+            <i class="fab fa-facebook-f"></i>
+
+            <i class="fab fa-pinterest"></i>
+
+          </div>
+
+        </div>
+
+        <i class="fa-regular fa-bookmark bookmark-icon"></i>
+
+      `;
+
+      colDiv.appendChild(cardDiv);
+
+    } else {
+
+      const cardDiv = document.createElement("div");
+
+      cardDiv.className = "card p-4 position-relative h-100";
+
+      cardDiv.innerHTML = `
+
+        <div class="badge-count">${card.count}</div>
+
+        <h5 class="fw-bold mt-2">${card.title}</h5>
+
+        <p class="text-muted">${card.desc}</p>
+
+        <img src="${card.img}" alt="${card.title}" class="img-fluid">
+
+      `;
+
+      colDiv.appendChild(cardDiv);
+
+    }
+
+
+
+    row.appendChild(colDiv);
+
+  });
+
+
+
+  container.innerHTML = "";
+
+  container.appendChild(row);
+
+
+
+  requestAnimationFrame(() => row.classList.add("slide-active"));
+
+}
+
+
+
+tabs.forEach((tab, i) => {
+
+  tab.addEventListener("click", e => {
+
+    e.preventDefault();
+
+    tabs.forEach(t => t.classList.remove("active"));
+
+    tab.classList.add("active");
+
+
+
+    const direction = i > currentIndex ? "right" : "left";
+
+    currentIndex = i;
+
+
+
+    renderCards(tab.dataset.topic, direction);
+
+  });
+
+});
+
+
+
+renderCards("marketing");
+
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
